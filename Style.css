@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 #nav-h{
     list-style: none;
@@ -20,7 +21,6 @@
     text-decoration: none;
     display: inline-block;
     padding: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 #nav-h li a:hover{
     color: black;
@@ -46,7 +46,6 @@
 }
 #textobanner h1{
     font-size: 70px;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 #botbanner{
     color: white;
@@ -61,4 +60,31 @@
     border: none;
     background: #00ff43;
     
+}
+/* Banner2 */
+#banner2{
+    padding-top: 150px;
+    padding-left: 150px;
+    background-size: cover;
+    width: 2000px;
+    height: 600px;
+    background-image: url(imgs/Banner2.png);
+    color: white;
+}
+#banner2 hr{
+    margin: 0 auto 0 0;
+    text-align: left;
+    height: 4px;
+    width: 5%;
+    background-color: white;
+}
+#banner2 h1{
+    display: inline;
+    font-size: 70px;
+}
+#banner2 p{
+    font-size: 20px;
+}
+.txtverde{
+    color: #00ff43;
 }
