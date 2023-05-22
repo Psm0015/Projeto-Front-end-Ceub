@@ -57,6 +57,7 @@ body {
     padding-top: 10px;
     border: 0;
     width: 190px;
+    cursor: pointer;
 }
 
 /* Banner Página Principal */
