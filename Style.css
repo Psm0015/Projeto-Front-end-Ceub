@@ -1,35 +1,58 @@
 /* IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+/* ESTILOS GERAIS */
+
+.topic-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.txtverde {
+    color: #00ff43;
+}
+
+
+
 /* ESTILOS DE NAVEGAÇÃO */
-body{
+body {
     background-color: black;
 }
-*{
+
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
 }
-#nav-h{
+
+#nav-h {
     list-style: none;
     padding: 0;
     background-color: black;
 }
 
-#nav-h li{
+#nav-h li {
     display: inline;
 }
-#nav-h li a{
+
+#nav-h li a {
     color: #00ff43;
     text-decoration: none;
     display: inline-block;
     padding: 20px;
 }
-#nav-h li a:hover{
+
+#nav-h li a:hover {
     color: black;
     background-color: #00ff43;
 }
-#nav-h li img{
+
+#nav-h li img {
     padding-left: 15px;
     padding-top: 10px;
     border: 0;
@@ -38,19 +61,22 @@ body{
 
 /* Banner Página Principal */
 
-#bannerprincipal{
+#bannerprincipal {
     width: 100%;
     height: 600px;
     background-image: url(imgs/BannerPagPrincipal.png);
 }
-#textobanner{
+
+#textobanner {
     padding-top: 150px;
     padding-left: 150px;
 }
-#textobanner h1{
+
+#textobanner h1 {
     font-size: 70px;
 }
-#botbanner{
+
+#botbanner {
     color: white;
     background-color: black;
     border: 1.7px #00ff43 solid;
@@ -58,49 +84,87 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
-#botbanner:hover{
+
+#botbanner:hover {
     color: black;
     border: none;
     background: #00ff43;
-    
+
 }
+
 /* Banner2 */
-#banner2{
-    padding-top: 150px;
-    padding-left: 150px;
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+
+#banner2 {
+    padding: 150px;
     background-size: cover;
-    width: 100%;
-    height: 600px;
-    /* background-image: url(imgs/Banner2.png); */
+    width: 50%;
     color: white;
 }
-#banner2 hr{
+
+#banner2 hr {
     margin: 0 auto 0 0;
     text-align: left;
     height: 4px;
     width: 5%;
     background-color: white;
 }
-#banner2 h1{
+
+#banner2 h1 {
     display: inline;
     font-size: 70px;
 }
-#banner2 p{
+
+#banner2 p {
     font-size: 20px;
 }
-.txtverde{
-    color: #00ff43;
+
+.image-container {
+    flex: 1;
+    text-align: right;
 }
-/* Banner 3 */
-#banner3{
-    margin: 0 auto;
+
+.image-container img {
+    margin-right: 280px;
     width: 100%;
+    max-width: 400px;
+    /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+/* Banner 3 */
+.banner-container3 {
+    padding: 150px;
+    background-color: rgb(12, 12, 12);
     display: flex;
-    justify-content:end;
-    
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.image-container3 {
+    margin-left: 130px;
+    flex: 1;
     text-align: left;
 }
-#banner3 p{
+
+.image-container3 img {
+    width: 100%;
+    max-width: 400px;
+    /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+#banner3 {
     color: white;
+    text-align: left;
+}
+
+#banner3 p {
+    margin-right: 210px;
     font-size: 20px;
+}
+
+#banner3 h1 {
+    font-size: 70px;
 }
