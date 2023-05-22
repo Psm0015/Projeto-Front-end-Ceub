@@ -64,7 +64,7 @@ body {
 #bannerprincipal {
     width: 100%;
     height: 600px;
-    background-image: url(imgs/BannerPagPrincipal.png);
+    background-image: url(../imgs/BannerPagPrincipal.png);
 }
 
 #textobanner {
@@ -167,4 +167,64 @@ body {
 
 #banner3 h1 {
     font-size: 70px;
+}
+
+/* FOOTER */
+
+.footerhr {
+    margin: 0 auto 0 0;
+    height: 4px;
+    background-color: white;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    width: 85%;
+}
+
+.footer-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 200px;
+    /* Ajuste o tamanho da logo conforme necessário */
+}
+
+.footer-topics h3 {
+    margin-bottom: 10px;
+}
+
+.footer-topics ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-topics li {
+    margin-bottom: 5px;
+}
+
+.footer-topics a {
+    text-decoration: none;
+    color: white;
+}
+.footer-topics a:hover{
+    color: #00ff43;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    color: #999;
 }
