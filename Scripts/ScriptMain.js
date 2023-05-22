@@ -4,6 +4,11 @@ function rolarsolu() {
         behavior: "smooth",
     });
 }
+
+function pgpr() {
+    window.location.href='index.html'
+}
+
 // SCRIPT DIREITOS DA PÁGINA
 function direitopg() {
     const dataAtual = new Date();
