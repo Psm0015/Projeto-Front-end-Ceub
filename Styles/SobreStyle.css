@@ -1,16 +1,68 @@
-h1{
+h1 {
     padding-left: 10%;
 }
 
-.txt{
+.txt {
     display: inline-block;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 18px;
 }
-pre{
+
+pre {
     display: inline;
 }
-.cartoes{
-    display:flex;
+
+.cartoes {
+    display: flex;
+}
+
+/* Cards Funcionários */
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.frame {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #00ff43;
+    padding: 5px;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card img {
+    max-width: 100%;
+    /* Alterado para ajustar a imagem ao contêiner */
+    max-height: 100%;
+    /* Alterado para ajustar a imagem ao contêiner */
+}
+
+.card p {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.name {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.position {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.cards {
+    text-align: center;
 }
